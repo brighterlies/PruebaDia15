@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public static void saludar() {
+        System.out.println("Hola Mundo!");
+    }
 }
